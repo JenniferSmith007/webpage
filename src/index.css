@@ -1,0 +1,76 @@
+body{
+  background-color: ghostwhite;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start ;
+  margin-top: -5em;
+
+}
+.header_hello{
+  font-family:'Damion', cursive; 
+  font-size: 14em;
+  margin-left: .2em;
+}
+.header_name{
+  font-family: 'Koulen', cursive;
+  font-size: 14em;
+  align-self: center;
+  margin-top: -1em;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2em;
+  margin-top: -35em;
+}
+.email, .github, .linked{
+  width: 2.5em;
+  height: 2.5em;
+ 
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  margin-top: 24em;
+  margin-left: 9em;
+  
+}
+.about_header{
+  font-family: 'Koulen', cursive;
+  font-size: 5em;
+  
+}
+.loc{
+  font-family: 'Merriweather', serif;
+  margin-top: -3em;
+  font-size: 2em;
+}
+.pic{
+  width: 30em;
+  height: 30em;
+  align-self: flex-end;
+  margin-top: -16em;
+  margin-right: 7em;
+
+}
+.proj{
+  font-family: 'Koulen', cursive;
+  font-size: 3em;
+ text-align: center;
+ margin-top:3.5em;
+}
+.projects{
+    font-family: 'Koulen', cursive;
+    
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+
+}
